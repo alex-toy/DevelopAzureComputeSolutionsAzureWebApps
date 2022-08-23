@@ -1,4 +1,4 @@
-﻿namespace WebAppTrial.Controllers
+﻿namespace WebAppTrial.Models
 {
     public class Course
     {
