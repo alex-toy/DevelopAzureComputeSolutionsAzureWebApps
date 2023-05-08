@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVC", "WebAppMVC\WebA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlApp", "SqlApp\SqlApp.csproj", "{DBC9EE93-B45F-475A-B5F7-F3F7A514D07A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppGithub", "WebAppGithub\WebAppGithub.csproj", "{E1FE02FC-F12C-41BB-B237-C267C1184E1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DBC9EE93-B45F-475A-B5F7-F3F7A514D07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBC9EE93-B45F-475A-B5F7-F3F7A514D07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBC9EE93-B45F-475A-B5F7-F3F7A514D07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1FE02FC-F12C-41BB-B237-C267C1184E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FE02FC-F12C-41BB-B237-C267C1184E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FE02FC-F12C-41BB-B237-C267C1184E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FE02FC-F12C-41BB-B237-C267C1184E1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,12 +48,25 @@ System.Data.SqlClient
 <img src="/pictures/create_sql_db3.png" title="create sql database"  width="900">
 
 - create course web app and publish the course app to it :
-<img src="/pictures/create_third_web_app.png" title="create web app"  width="600">
+<img src="/pictures/create_third_web_app.png" title="create web app"  width="900">
+
+- the app should retrieve data as well :
+<img src="/pictures/create_third_web_app2.png" title="create web app"  width="900">
 
 So far, the connection string is stored in the app itself (app_settings). Now, let's store it in the web app itself.
 
 - in the **Configuration** panel, add a connection string. In the appsettings.json file, remove the *ConnectionStrings* section. Publish again
-<img src="/pictures/configuration.png" title="create web app"  width="600">
+<img src="/pictures/configuration.png" title="create web app"  width="900">
 
+The app should be able to retrieve the data as well.
 
 ## Continuous Deployment
+
+- create a new web app and allow continuous deployment :
+<img src="/pictures/create_cd_web_app.png" title="create web app for continuous deployment"  width="900">
+
+- on deployment center :
+<img src="/pictures/deployment_center.png" title="deployment center"  width="600">
+
+- create a new .NET Core Web App
+
