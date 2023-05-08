@@ -63,10 +63,12 @@ The app should be able to retrieve the data as well.
 ## Continuous Deployment
 
 - create a new web app and allow continuous deployment :
-<img src="/pictures/create_cd_web_app.png" title="create web app for continuous deployment"  width="900">
+<img src="/pictures/create_cd_web_app.png" title="create web app for continuous deployment"  width="600">
 
 - on deployment center :
 <img src="/pictures/deployment_center.png" title="deployment center"  width="600">
 
 - create a new .NET Core Web App
+
+## SSL
 
