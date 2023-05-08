@@ -35,7 +35,25 @@ You can have multiple web apps running as part of the same **App Service Plan**.
 
 ## SQL Database and connection string
 
-Enable public endpoint
+- Enable public endpoint, choose sql authentication
 <img src="/pictures/create_sql_db.png" title="create sql database"  width="900">
 <img src="/pictures/create_sql_db2.png" title="create sql database"  width="900">
 
+- create MVC project
+```
+System.Data.SqlClient
+```
+
+- at the end, the app should connect to the SQL database and retrieve the data in it :
+<img src="/pictures/create_sql_db3.png" title="create sql database"  width="900">
+
+- create course web app and publish the course app to it :
+<img src="/pictures/create_third_web_app.png" title="create web app"  width="600">
+
+So far, the connection string is stored in the app itself (app_settings). Now, let's store it in the web app itself.
+
+- in the **Configuration** panel, add a connection string. In the appsettings.json file, remove the *ConnectionStrings* section. Publish again
+<img src="/pictures/configuration.png" title="create web app"  width="600">
+
+
+## Continuous Deployment

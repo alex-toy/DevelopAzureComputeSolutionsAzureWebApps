@@ -1,6 +1,25 @@
+using SqlApp.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddMvc();
+builder.Services.AddTransient<CourseService>();
+
+
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.UseRouting();
+
+//app.UseEndpoints(endpoints =>
+//{
+//    endpoints.MapControllerRoute(
+//        name: "default",
+//        pattern: "{controller=Course}/{action=Index}/{id?}");
+//});
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}");
 
 app.Run();
