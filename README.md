@@ -70,5 +70,11 @@ The app should be able to retrieve the data as well.
 
 - create a new .NET Core Web App
 
-## SSL
+## Logging
+
+- in the *App Service Logs* section, set the following :
+<img src="/pictures/logs.png" title="logs"  width="600">
+
+- you can see the logs showing up in the *Log stream* section :
+<img src="/pictures/logs2.png" title="logs"  width="600">
 
