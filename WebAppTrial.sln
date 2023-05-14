@@ -5,11 +5,13 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppTrial", "WebAppTrial\WebAppTrial.csproj", "{EDC95640-F78F-4CBD-83B4-7C8695E18BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVC", "WebAppMVC\WebAppMVC.csproj", "{533FF45F-2497-4F93-B6CF-93183F9C88EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppMVC", "WebAppMVC\WebAppMVC.csproj", "{533FF45F-2497-4F93-B6CF-93183F9C88EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlApp", "SqlApp\SqlApp.csproj", "{DBC9EE93-B45F-475A-B5F7-F3F7A514D07A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlApp", "SqlApp\SqlApp.csproj", "{DBC9EE93-B45F-475A-B5F7-F3F7A514D07A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppGithub", "WebAppGithub\WebAppGithub.csproj", "{E1FE02FC-F12C-41BB-B237-C267C1184E1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppGithub", "WebAppGithub\WebAppGithub.csproj", "{E1FE02FC-F12C-41BB-B237-C267C1184E1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureFlagApp", "FeatureFlagApp\FeatureFlagApp.csproj", "{D571A4CD-AFC7-4D73-B76D-A6609583B57E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E1FE02FC-F12C-41BB-B237-C267C1184E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1FE02FC-F12C-41BB-B237-C267C1184E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1FE02FC-F12C-41BB-B237-C267C1184E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D571A4CD-AFC7-4D73-B76D-A6609583B57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D571A4CD-AFC7-4D73-B76D-A6609583B57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D571A4CD-AFC7-4D73-B76D-A6609583B57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D571A4CD-AFC7-4D73-B76D-A6609583B57E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

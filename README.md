@@ -85,6 +85,8 @@ The app should be able to retrieve the data as well.
 
 ### App Settings
 
+Those settings can be shared accross multiple web applications.
+
 - in the *Configuration Explorer* section, add a configuration for the database :
 <img src="/pictures/configuration_explorer.png" title="configuration explorer"  width="900">
 
@@ -98,4 +100,19 @@ Microsoft.Azure.AppConfiguration.AspNetCore
 
 - you can now reference the settings in your code 
 <img src="/pictures/app_configuration_access_keys2.png" title="app configuration access keys"  width="900">
+
+### Feature Flags
+
+Those settings can be shared accross multiple web applications.
+
+- in the *Feature Manager* section, add a *feature Flag* for the database :
+<img src="/pictures/feature_manager.png" title="feature manager"  width="900">
+
+- create an ASP.NET MVC project
+
+- install package nuget
+```
+Microsoft.Azure.AppConfiguration.AspNetCore
+Microsoft.FeatureManagement.AspNetCore
+```
 
