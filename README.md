@@ -76,5 +76,26 @@ The app should be able to retrieve the data as well.
 <img src="/pictures/logs.png" title="logs"  width="600">
 
 - you can see the logs showing up in the *Log stream* section :
-<img src="/pictures/logs2.png" title="logs"  width="600">
+<img src="/pictures/logs2.png" title="logs"  width="900">
+
+## App Configuration
+
+- create an App Configuration :
+<img src="/pictures/app_configuration.png" title="app configuration"  width="600">
+
+### App Settings
+
+- in the *Configuration Explorer* section, add a configuration for the database :
+<img src="/pictures/configuration_explorer.png" title="configuration explorer"  width="900">
+
+- create a web app and install nuget package :
+```
+Microsoft.Azure.AppConfiguration.AspNetCore
+```
+
+- in the *Access Keys* section of the *App Configuration*, grab the connection string of the primary key :
+<img src="/pictures/app_configuration_access_keys.png" title="app configuration access keys"  width="900">
+
+- you can now reference the settings in your code 
+<img src="/pictures/app_configuration_access_keys2.png" title="app configuration access keys"  width="900">
 
